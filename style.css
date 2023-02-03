@@ -17,6 +17,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.titulo-principal{
+	cursor: pointer;
+	align-items: center;
+	padding: 15px;
+}
+
 header {
 	background: #BBBBBB;
 	padding: 20px 10%;
