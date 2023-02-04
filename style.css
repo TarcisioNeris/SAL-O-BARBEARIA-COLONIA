@@ -1,8 +1,6 @@
 
 *{
-	margin: 0;
-	padding: 0;	 
-	box-sizing: border-box;
+	 
 }
 	/*rua Cel.Câmara lima ( beco da colôcinia ) -jaboatão velho*/
 	/* link da mesma:> *https://goo.gl/maps/Je8kQwFbxtRuNWM96
@@ -31,11 +29,13 @@ header {
 .caixa {
 	position: relative;
 	width: 100%;
-	margin: 25 auto;
+	margin: 25px;
+	 
 }
 
 nav {
 	position: absolute;
+	margin-top: -50px;
 	top: 110px;
 	right: 0;
 }
@@ -56,6 +56,12 @@ nav a {
 nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
+}
+.banner{
+	margin: 5;
+	padding: 5;
+	width: 100%;
+	height: 100%;
 }
 
 .produtos {
@@ -86,6 +92,32 @@ nav a:hover {
 
 .produtos li:hover h2 {
 	font-size: 34px;
+}
+.text-sob{
+	align-items:center;
+	
+	background: linear-gradient(#FEFEFE, #49a09d);
+	padding-left: 15%;
+	display: inline-block;
+	padding: 10px;
+}
+
+.img-sob {
+	
+	background: linear-gradient(#FEFEFE, #49a09d);
+	padding-left: 15%;
+	display: inline-block;
+	padding: 10px;
+	  
+
+}
+.img-sob p {
+ 
+	background: linear-gradient(#FEFEFE, #49a09d);
+	padding-left: 15%;
+	display: inline-block;
+	padding: 10px;
+
 }
 
 .produtos h2 {
