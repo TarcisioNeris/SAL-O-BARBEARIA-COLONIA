@@ -130,8 +130,17 @@ footer{
 @media (max-width:800px) {
     .footer-col{
         width: 50%;
-        margin-bottom: 30px;
+        margin-bottom: 100px;
+    
 
+    }
+    .menu-btn ul li {
+        align-items:center;
+        padding-bottom: 10px; 
+        padding-left: 10px;
+    }
+    .menu-btn i{
+        display: none;
     }
 
 }
