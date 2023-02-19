@@ -1,4 +1,4 @@
-
+ 
 
 	 
 
@@ -12,6 +12,7 @@
 	/*https://www.google.com.br/maps/place/Sal%C3%A3o+barbearia+Col%C3%B4nia/@-8.1132487,-35.0176415,3a,75y/data=!3m8!1e2!3m6!1sAF1QipNfNleRxCVreLpZ9PrudzdhmpsbeDLe1c8eHEnQ!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNfNleRxCVreLpZ9PrudzdhmpsbeDLe1c8eHEnQ%3Dw203-h152-k-no!7i4096!8i3072!4m6!3m5!1s0x7ab1d3e0fcbb9a5:0xa993e321429ef85b!8m2!3d-8.113269!4d-35.0177108!16s%2Fg%2F11b6hxtspm?hl=pt-BR*//*googlor eas*/
 
 body {
+	
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,10 +28,24 @@ header {
 }
 
 .caixa {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	margin: 25px;
+	
 	 
+}
+.caixa img{
+	position: fixed;
+	border-radius: 50%;
+	border: 5px solid #f7f2f20d;
+	 
+	padding: 70px;
+
+}
+
+.menu-btn{
+	display: none;
+	margin-top: auto
 }
 
 nav {
@@ -83,12 +98,13 @@ nav a:hover {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid  #C78C19;
 	border-radius: 10px;
 }
 
 .produtos li:hover {
-	border-color: #C78C19;
+	border-color:  #000000;
+
 }
 
 .produtos li:active {
@@ -172,7 +188,7 @@ body {
 }
 
 .btn-whatsapp {
-    position: absolute;
+    position:  relative;
     outline: none;
     bottom:30px;/*bottom no roda pé tpo superio esquedo sua width */
     right: 30px;
@@ -185,6 +201,9 @@ body {
     color: #FFF;
     font-size: 2.3ren;
     border: 1px solid #f1f1f1;
+	margin-right: 0 10px 10px 0 ;
+	align-items: center;
+	 
 
     /*animation-name: pulsar;
     animation-duration: 0.8s;
@@ -308,10 +327,10 @@ td, th {
 	width: 120px;
 	float: left;
 	margin: 10px;
-	margin-top: -10px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: -10px;
 	align-items: center;
-	position:relative;
+	position:absolute;
 	justify-items: center; 
 }
 
@@ -396,6 +415,9 @@ td, th {
 		width: 100%;
 	}
 
+	
+	
+
 /**/
 @media screen and (min-width:768px) and (max-width:992px) {
 	/*   configuração para tabelt    */
@@ -417,10 +439,14 @@ td, th {
 			float: right;
 			width: 70%;
 		}
+		.nav ul li{
+			display: none;
+		}
 	
 	}
 	
 	@media screen and(min-width: 982px) { /* configuração para tela grande/ DESKTOP  */
+ 
 		
 		body {
 			background-image: linear-gradient(to top,#49a09d,#5f2cb2);
